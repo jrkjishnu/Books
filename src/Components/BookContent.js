@@ -13,7 +13,6 @@ function BookContent({books}) {
             setShow(true);
         else
             setShow(false);
-        console.log("Books are "+book);
         history.push({
             pathname: '/edit',
             book: book,
